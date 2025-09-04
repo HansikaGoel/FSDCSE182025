@@ -1,0 +1,41 @@
+*{
+  margin:20px;
+  padding:20px;
+  font-size:20px;
+  color:blue;
+  height:150px;
+  width:250px;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: double;
+  text-decoration-color:black ;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing:center-box;
+  display:incline-block;
+}
+  #firstheading{
+    color:darkviolet;
+    font-size:50px;
+    font-family:'Times New Roman', Times, serif;
+  }
+#box1{
+background-color:darkred;
+height:100px;
+width:100px;
+font-size: 25px;
+}
+#box2{
+background-color:darkred;
+height:50%;
+width:40%;
+font-size:0.5em;
+}
+  <!-- 
+    em and rem are relative CSS units:
+    - em: Relative to the font-size of the element or its parent. For example, 2em means 2 times the current font-size.
+    - rem: Relative to the font-size of the root element (<html>). For example, 2rem means 2 times the root font-size.
+    Use em for scaling based on parent, rem for consistent scaling across the page.
+  -->

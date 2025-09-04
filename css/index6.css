@@ -1,0 +1,19 @@
+.first {
+  background-color: bisque; 
+  height: 60px; width:200px; 
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style:solid;
+  text-decoration-color:brown;
+  text-decoration-thickness: 1px;
+  text-transform: Uppercase;
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: red;
+  margin: 20px 20px 40px 20px; padding: 20px; 
+  border: 1px solid black;
+  border-radius: 10px;
+}
+background- color: bisque;

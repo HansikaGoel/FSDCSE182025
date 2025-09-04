@@ -1,0 +1,21 @@
+#heading{
+  font-size: 40px;
+  color:blueviolet;
+  text-align: center;
+}
+
+
+
+.BOX{
+  width: 150px;
+  height: 60px;
+  background-color:blanchedalmond;
+  border: 1px solid black;
+  margin: 20px auto;
+  padding:0px;
+  text-align:center;
+  line-height: 56px;
+  font-size: 20px;
+  color:black;
+
+}

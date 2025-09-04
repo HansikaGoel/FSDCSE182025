@@ -1,0 +1,13 @@
+   *{
+      margin:50px;
+      padding:20px;
+    }
+  
+  .button{
+      height:100px;
+      width:100px;
+      border:1px solid black;
+      background-color:rgb(97, 167, 143);
+    }
+    #button1{box-sizing:border-box;}
+    #button2{box-sizing:content-box;}

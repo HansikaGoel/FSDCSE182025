@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+    <h3> This is my practice sheet</h3>
+     <form>
+        Text:<input type="TEXT" placeholder="Enter Text" required/>
+        <br>
+        Password:<input type="password" required/>
+     </form>
+        <hr>
+     <p>Another form </p>
+     <form action="/submit.php" mathod="post">
+        USERNAME:<input type="text" placeholder="NAME" value="JOHN" required/>
+        <br>
+        EMAIL:<input type="email" placeholder="EMAIL" value="name@gmail.com" required/>
+        <br>
+        CONTACT NUMBER:<input type="contact number" placeholder="CONTACT NUMBER" required/>
+        <br>
+        <lable for="password">PASSWORD:</lable>   
+        <input type="password" id="user password"/>
+        <br>
+        <input type="SUBMIT" value="SUBMIT"/>
+     </form>
+        <hr>
+        <p>Another form 2</p>
+        <form action="contact-me"> 
+            <lable for="name">USERNAME:</lable>
+            <input type="text" id="name" placeholder="name" required="true"/>
+            <br>
+            <lable for="Email">EMAIL:</lable>
+            <input type="email" id="email" placeholder="email" required="true"/>
+            <br>
+            <lable for="CONTACT NUMBER">CONTACT NUMBER:</lable>
+            <input type="CONTACT NUMBER" id="CONTACT NUMBER" required="true"/>
+            <br>
+            <lable for="password">PASSWORD:</lable>   
+            <input type="password" id="user password"/>
+            <br>
+            <input type="SUBMIT" value="SUBMIT"/>
+           </form>
+            <hr>
+             <h5>Input type display</h5>
+             <form action="/CONTACT-ME">
+             <lable for="DATE">DATE:</lable>
+             <input type="Data" id="Date" placeholder="XX/XX/20XX" required/>
+             <br>
+             <lable for="FILE">FILE:</lable>
+             <input type="file" id="file" required/>
+             <br>
+              <lable for="color:">FAVOURITE COLOR</lable>
+              <input type="color" id="color" required/>
+              <br>
+              <input type="range" required/>
+              <br>
+              PROCEED:<input type="button" value="CLICK ME"/>
+              <br>
+              MALE:<input type="radio" name="gender" value="male" >
+              FEMALE:<input type="radio" name="gender" value="female">
+              OTHER:<input type="radio" name="gender" value="other">
+              <hr>
+              <p>other way in which more than 1 option can be selected-</p>
+              <lable for="football">FOOTBALL:</lable>
+              <input type="radio" id="football" name="sports1" value="football"/>
+              <lable for="cricket"> CRICKET:</lable>
+              <input type="radio" id="cricket" name="sports2" value="cricket"/>
+              <lable for="basketball">BASKETBALL:</lable>            
+              <input type="radio" id="baskrtball" name="sports3" value="baskrtball"/>
+              <hr>
+               <p> CHECKBOX</p>
+               <lable for="java">JAVA:</lable>
+               <input type="checkbox" id="java" name="language" value="java"/>
+               <br>
+               <lable for="c">C:</lable>
+               <input type="checkbox" id="c" name="language" vlue="c"/>
+               <br>
+               <lable for="html">HTML:</lable>
+               <input type="checkbox" id="html" name="language" value="html"/>
+               <br>
+               <lable for="css">CSS:</lable>
+               <input type="checkbox" id="css" name="language" value="css"/>
+               <br>
+               <lable for="js">JS:</lable>
+               <input type="checkbox" id="js" name="language" value="js"/>
+               <hr>
+               <lable for="country">Select your country</lable>
+               <select name="country" id="country">
+                  <option value="choose">CHOOSE:</option>
+                  <option value="india">INDIA</option>
+                  <option value="us">US</option>
+                  <option vlue="russia">RUSSIA</option>
+                  <option value="australia">AUSTRALIA</option>
+                  <option value="other">OTHER</option>
+               </select> 
+               <br>
+               <textarea rows="4" cols="40">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio eos ducimus voluptatem. Est vitae vel incidunt animi et consectetur ipsam?
+               </textarea>
+               <br>
+              <input type="SUBMIT" value="SUBMIT"/> 
+              <p> Finally completed with HTML</p>
+             </form>
+         </body>
+         </html>
